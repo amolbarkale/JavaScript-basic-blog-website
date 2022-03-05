@@ -1,0 +1,30 @@
+:root {
+  --min-big-color: brown;
+  --font1: "Baloo Bhaijaan 2", cursive;
+  --font2: "Roboto", sans-serif;
+}
+
+.max-width-1 {
+  max-width: 80vw;
+}
+
+.max-width-2 {
+  max-width: 60vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+.btn {
+  padding: 0px 15px;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-family: var(--font1);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  color: white;
+  background: var(--min-big-color);
+}
