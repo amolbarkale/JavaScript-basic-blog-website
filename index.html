@@ -18,6 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Noto+Sans&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/mobile.css" />
     <title>BlogSpot</title>
     <style>
       /* font-family: "Baloo Bhaijaan 2", cursive;
@@ -27,23 +28,27 @@
   <body>
     <nav class="navigation max-width-1 m-auto">
       <div class="nav-left">
-        <span>BlogSpot</span>
+        <a href="/"><span>BlogSpot</span></a>
         <ul>
-          <li><a href="/">home</a></li>
-          <li><a href="#">about</a></li>
-          <li><a href="/contact">contact</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
         </ul>
       </div>
       <div class="nav-right">
-        <input
-          class="form-input"
-          type="text"
-          placeholder="search for article"
-        />
-        <button class="btn">Search</button>
+        <form action="/search.html" method="get">
+          <input
+            name="query"
+            class="form-input"
+            type="text"
+            placeholder="search for article"
+          />
+          <button class="btn">Search</button>
+        </form>
       </div>
     </nav>
-    <div class="content max-width-1 m-auto">
+    <div class="max-width-1 m-auto"><hr /></div>
+    <div class="content max-width-1 m-auto my-2">
       <div class="content-left">
         <h1>Bloggers paradise</h1>
         <p>
@@ -60,11 +65,87 @@
     </div>
 
     <div class="max-width-1 m-auto"><hr /></div>
-    <div class="home-articles">
-      <div class="home-article"></div>
-    </div>
+    <div class="home-articles max-width-1 m-auto font2">
+      <h2>Featured articles</h2>
+      <div class="home-article">
+        <div class="home-article-img"><img src="/img/img1.jpg" alt="" /></div>
 
+        <div class="home-article-content font1">
+          <a href="/blogpost.html">
+            <h3>Lorem ipsum dolor sit amet sd afs.</h3>
+          </a>
+          <div>Author name:</div>
+          <span>7 january | 6 min read</span>
+        </div>
+      </div>
+      <div class="home-article">
+        <div class="home-article-img"><img src="/img/img2.jpg" alt="" /></div>
+
+        <div class="home-article-content font1">
+          <a href="/blogpost.html">
+            <h3>Lorem ipsum dolor sit amet sd afs.</h3>
+          </a>
+          <div>Author name:</div>
+
+          <span>7 january | 6 min read</span>
+        </div>
+      </div>
+      <div class="home-article">
+        <div class="home-article-img"><img src="/img/img3.jpg" alt="" /></div>
+
+        <div class="home-article-content font1">
+          <a href="/blogpost.html">
+            <h3>Lorem ipsum dolor sit amet sd afs.</h3>
+          </a>
+          <div>Author name:</div>
+
+          <span>7 january | 6 min read</span>
+        </div>
+      </div>
+      <div class="home-article">
+        <div class="home-article-img"><img src="/img/img4.jpg" alt="" /></div>
+
+        <div class="home-article-content font1">
+          <a href="/blogpost.html">
+            <h3>Lorem ipsum dolor sit amet sd afs.</h3>
+          </a>
+          <div>Author name:</div>
+
+          <span>7 january | 6 min read</span>
+        </div>
+      </div>
+      <div class="home-article">
+        <div class="home-article-img"><img src="/img/img1.jpg" alt="" /></div>
+
+        <div class="home-article-content font1">
+          <a href="/blogpost.html">
+            <h3>Lorem ipsum dolor sit amet sd afs.</h3>
+          </a>
+          <div>Author name:</div>
+
+          <span>7 january | 6 min read</span>
+        </div>
+      </div>
+      <div class="home-article">
+        <div class="home-article-img"><img src="/img/img2.jpg" alt="" /></div>
+
+        <div class="home-article-content font1">
+          <a href="/blogpost.html">
+            <h3>Lorem ipsum dolor sit amet sd afs.</h3>
+          </a>
+          <div>Author name:</div>
+
+          <span>7 january | 6 min read</span>
+        </div>
+      </div>
+    </div>
+    <br />
     <div class="footer">
+      <div class="cont">
+        <h3>For offcial use only.</h3>
+        <a href="/admin.html"><button>Admin Login</button></a>
+      </div>
+
       <p>copyright &copy; BlogSpot.com</p>
       <p></p>
       <a href="https://www.vecteezy.com/free-vector/typing"
